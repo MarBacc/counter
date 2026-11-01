@@ -1,0 +1,28 @@
+# --- Your existing entries ---
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+
+# --- Keys and secrets (never commit these) ---
+*-keypair.json
+id.json
+*.keypair
+*.pem
+*.key
+.env
+.env.*
+
+# --- Build output and logs ---
+dist/
+coverage/
+*.log
+npm-debug.log*
+yarn-error.log
+
+# --- Editor files ---
+.idea/
+.vscode/
